@@ -15,6 +15,7 @@ a {
     font-family: 'Fira Sans', sans-serif;
     color :brown;
     text-decoration: none;
+    padding: 12px 48px;
 }
 
 a:hover {
@@ -31,4 +32,14 @@ img {
     width:200px;
     height: 200px;
     border-radius: 100px;
+}
+
+li {
+    background-color: rgb(172, 102, 102);
+    margin: 6px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
 }
