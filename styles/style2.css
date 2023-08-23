@@ -1,45 +1,27 @@
-body {
-    text-align: center;
-    background-color: antiquewhite;
-}
-
 h1 {
-    font-family: 'Oswald', sans-serif;
-}
-
-p {
-    font-family: 'Fira Sans', sans-serif;
+    font-size: 48px;
+    color: rgb(71,62,62);
 }
 
 a {
-    font-family: 'Fira Sans', sans-serif;
-    color :brown;
-    text-decoration: none;
-    padding: 12px 48px;
+    padding: 12px;
+    background-color: rgb(167,1,78);
+    color: white;
+    border: 1px solid rgb(167,1,78);
+    border-radius: 4px;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-#Css-title {
-    color: rgb(170, 255, 0);
-    font-weight: bold;
-    font-size: 52px;
-}
-
-img {
-    width:200px;
-    height: 200px;
-    border-radius: 100px;
-}
-
-li {
-    background-color: rgb(172, 102, 102);
-    margin: 6px;
+    text-decoration: none;
+    background-color: rgb(180,20,90);
 }
 
 ol {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 32px;
+    background-color: rgb(223,136, 124);
+    border-radius: 6px;
 }
