@@ -1,37 +1,70 @@
 body {
-    text-align: center;
-    background-color: antiquewhite;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 200px 0 200px 0;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    color: rgb(78, 75, 75);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgb(31, 25, 25);
+}
+
+span {
+    color: rgb(66,2,2);
 }
 
 p {
-    font-family: 'Fira Sans', sans-serif;
-    text-align: center;
-    color: rgb(78, 75, 75);
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: rgb(78, 75, 75);
 }
 
 a {
-    color :brown;
-    text-decoration: none;
+  color: rgb(73, 29, 50);
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-#Css-title {
-    color: rgb(167, 1, 78);
-    font-weight: bold;
-    font-size: 52px;
+#Todays_Challenge {
+  color: rgb(75, 59, 59);
+  font-weight: bold;
+  font-size: 52px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+main {
+  text-align: center;
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: rgb(219, 108, 94);
+  border-radius: 8px;
+  border: 3px solid rgb(44,44,44);
+  padding: 24px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  margin-top: -105px;
+  border: 3px solid rgb(44,44,44);
+}
+
+main p {
+  margin: 0 30px;
+}
+
+main h1 {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 50px;
 }
